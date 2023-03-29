@@ -134,6 +134,10 @@ article section .contact-heading {
 
 }
 
+#contact-heading {
+    min-width: 384px;
+}
+
 article section ul {
     width: 100%;
     list-style: none;
@@ -154,25 +158,32 @@ article section ul li {
     display: flex;
 }
 
+
 .contact-me {
     margin-top: 2%;
 }
 
 
-.work {
+#work {
     margin-top: 2%;
+    display: flex;
 }
 
+#work-heading {
+    min-width: 384px;
+}
 
-
-.work-heading {
-    font-size: 55px;
+.headings {
+    font-size: 5rem;
     white-space: nowrap;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
     color: navy;
     font-weight: lighter;
+   
 }
+
+
 
 .card {
     flex: 0 0 200px;
@@ -193,13 +204,35 @@ article section ul li {
     flex-wrap: wrap;
     justify-content: space-between;
     border-left: solid blue 5px;
-    margin-left: 322px;
+   
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     header, nav, figure {
         flex-direction: column;
     }
-    
+    .about-container {
+        display: block;
+}
+
+
+.contact-container {
+    display: block;
+}
+
+.images-container {
+    width: 100%;
+    min-width: 90%;
+}
+
+.work-heading {
+    width: 100%;
+    min-width: 90%;
+}
+
+#work {
+    display: block;
+}
+
 }
