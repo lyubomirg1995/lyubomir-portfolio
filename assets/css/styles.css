@@ -123,6 +123,7 @@ article .horiseon {
 
 
 
+
 article section .contact-heading {
     font-size: 55px;
     margin-left: 100px;
@@ -200,11 +201,29 @@ article section ul li {
 }
 
 .images-container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: space-between;
     border-left: solid blue 5px;
+    flex-direction: row;
    
+}
+
+.images-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+
+.images-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+   
+
 }
 
 
@@ -216,6 +235,9 @@ article section ul li {
         display: block;
 }
 
+.horiseon {
+    display: block;
+}
 
 .contact-container {
     display: block;
