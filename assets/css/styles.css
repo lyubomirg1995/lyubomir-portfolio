@@ -196,31 +196,44 @@ article section ul li {
 
 img {
     width: 100%;
-    min-width: 250px;
+    /* min-width: 250px; */
     height: 100%;
-   
-}
-
-.image-container-1 {
-    display: flex;
-    width: 60%;
-}
-   
-
-.image-container-2 {
-    display: flex;
     
    
 }
 
-.images-container-3 {
+
+#horiseon {
+    width: 90%;
+}
+
+.image-container-1 { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-   
-
+    width: 100%;
+    border-left: solid blue 5px;
 }
+
+
+ .image-container-1 a  {
+    width: 45%;
+    height: 50vh;
+    margin: 1%;
+    padding: 1%;
+ }  
+
+ .image-container-1 a img {
+    width: 100%;
+ }
+
+ 
+.image-container-2 {
+    display: flex;
+    width: 100%;
+    
+   
+}
+
 
 
 @media screen and (max-width: 768px) {
