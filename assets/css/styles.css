@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +93,7 @@ figure h1 {
     display: flex;
 }
 
-article section h1 {
+article section .about-heading {
     font-size: 55px;
     white-space: nowrap;
     margin-left: 20px;
@@ -102,8 +106,100 @@ article section h1 {
     border-left: solid blue 5px;
     padding-left: 30px;
     color: navy;
+    margin-left: 57px;
 }
 
 .paragraph-1 {
     margin-bottom: 10px;
+}
+
+
+
+article .horiseon {
+    width: 200px;
+
+    
+}
+
+
+
+article section .contact-heading {
+    font-size: 55px;
+    margin-left: 100px;
+    color: navy;
+    font-weight: lighter;
+    margin-right: 20px;
+    
+    
+
+}
+
+article section ul {
+    width: 100%;
+    list-style: none;
+    border-left: solid blue 5px;
+}
+
+article section ul li {
+    display: inline-block;
+    margin-right: 25px;
+    border-bottom: solid navy 5px;
+    color: navy;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-me {
+    margin-top: 2%;
+}
+
+
+.work {
+    margin-top: 2%;
+}
+
+
+
+.work-heading {
+    font-size: 55px;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: navy;
+    font-weight: lighter;
+}
+
+.card {
+    flex: 0 0 200px;
+    border: solid lightblue 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.card img {
+    width: 100%;
+    min-width: 250px;
+    height: 100%;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-left: solid blue 5px;
+    margin-left: 322px;
+}
+
+
+@media screen and (min-width: 768px) {
+    header, nav, figure {
+        flex-direction: column;
+    }
+    
 }
