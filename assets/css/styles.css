@@ -85,6 +85,8 @@ figure h1 {
   display: flex;
 }
 
+
+
 article section .about-heading {
   font-size: 55px;
   white-space: nowrap;
@@ -133,7 +135,7 @@ article section ul li {
   border-bottom: solid navy 5px;
   color: navy;
   margin-top: 40px;
-  margin-left: 100px;
+  
 }
 
 .contact-container {
@@ -208,7 +210,50 @@ img {
   .about-container {
     flex-direction: column;
     margin-top: 50px;
+    
   }
+
+ header h1 {
+  margin: auto;
+ }
+
+ header nav {
+  margin: auto;
+ }
+
+ .header {
+  display: flex;
+ }
+   
+ header nav ul {
+  display: flex;
+  flex-direction: column;
+ }
+
+ #about-me {
+  margin: auto;
+
+ }
+ 
+ .headings {
+  border-bottom: solid blue 5px;
+ }
+
+  #paragraphs {
+    margin: auto;
+    border-style: none;
+    margin-top: 2%;
+    
+    
+  }
+
+  #work-heading {
+      margin-left: 37%;
+      border-bottom: solid blue 5px;
+      display: inline;
+
+  }
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -223,19 +268,49 @@ img {
   .image-container-1 {
     flex-direction: column;
     align-items: center;
-    width: 30rem;
+    border-style: none;
+    
   }
   #horiseon img {
-    width: 20rem;
+    width: 326px;
+    margin-left: 29%;
+  }
+
+  #horiseon {
+    width: 100%;
+    margin-left: -1px;
   }
 
   .horiseon {
     display: block;
   }
 
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
   .contact-container ul {
     display: flex;
     flex-direction: column;
+    border-style: none;
+  }
+
+.contact-container ul li {
+  margin: auto;
+  margin-top: 3%;
+  
+}
+
+  #contact-heading {
+    margin: auto;
+    border-bottom: solid blue 5px;
+  }
+
+  #list {
+    margin: auto;
+   
   }
 
   .images-container {
