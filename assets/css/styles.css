@@ -1,269 +1,254 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    flex-wrap: wrap;
-    background-color:antiquewhite
-    
+  display: flex;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
 }
 
 header {
-    padding: 20px;
-    width: 100%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(87, 85, 85);
-    
+  padding: 20px;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(87, 85, 85);
 }
 
 header h1 {
-    font-size: 48px; 
-    color: black;
-    display: inline-block;
-    border-left: solid lightblue;
-    border-width: .25em;
-    background-color: lightblue;
-    border-radius: 10px; 
-    font-weight:lighter;
-    padding: 20px;
-    margin-left: -19px;
+  font-size: 48px;
+  color: black;
+  display: inline-block;
+  border-left: solid lightblue;
+  border-width: 0.25em;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-weight: lighter;
+  padding: 20px;
+  margin-left: -19px;
 }
 
-
-
 header nav {
-    padding-top: 36px;
-    margin-right: 15px;
-    float: right;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-
-
+  padding-top: 36px;
+  margin-right: 15px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
 }
 
 header nav ul {
-    list-style-type: none;
-    margin-top: -4px;
-
-    
+  list-style-type: none;
+  margin-top: -4px;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 a {
-    color: lightblue;
+  color: lightblue;
 }
 
 figure {
-    background-image: url("https://img.freepik.com/free-photo/creative-flat-lay-photo-workspace-desk_7861-985.jpg?w=2000&t=st=1679938626~exp=1679939226~hmac=bd1061d9742ab5ed888ca4bcc88d6c18c52274b8e6337fb7293981898947f4f1");
-    width: 100%;
-    height: 220px;
-    display: inline-block;
+  background-image: url("https://img.freepik.com/free-photo/creative-flat-lay-photo-workspace-desk_7861-985.jpg?w=2000&t=st=1679938626~exp=1679939226~hmac=bd1061d9742ab5ed888ca4bcc88d6c18c52274b8e6337fb7293981898947f4f1");
+  width: 100%;
+  height: 220px;
+  display: inline-block;
 }
 
 figure img {
-    height: 200px;
-    width: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 figure h1 {
-    border-width: .25em;
-    padding: 20px;
-    margin-top: 100px;
-    margin-right: 20px;
-    border-radius: 10px;
-    background: lightblue; 
-    float: right;
-    font-weight: lighter;
+  border-width: 0.25em;
+  padding: 20px;
+  margin-top: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background: lightblue;
+  float: right;
+  font-weight: lighter;
 }
 
 .about-container {
-    display: flex;
+  display: flex;
 }
 
 article section .about-heading {
-    font-size: 55px;
-    white-space: nowrap;
-    margin-left: 20px;
-    color: navy;
-    font-weight: lighter;
-    margin-right: 20px;
+  font-size: 55px;
+  white-space: nowrap;
+  margin-left: 20px;
+  color: navy;
+  font-weight: lighter;
+  margin-right: 20px;
 }
 
 .paragraphs {
-    border-left: solid blue 5px;
-    padding-left: 30px;
-    color: navy;
-    margin-left: 57px;
+  border-left: solid blue 5px;
+  padding-left: 30px;
+  color: navy;
+  margin-left: 57px;
 }
 
 .paragraph-1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
-
 
 article .horiseon {
-    width: 200px;
-
-    
+  width: 200px;
 }
 
-
-
-
 article section .contact-heading {
-    font-size: 55px;
-    margin-left: 100px;
-    color: navy;
-    font-weight: lighter;
-    margin-right: 20px;
-    
-    
-
+  font-size: 55px;
+  margin-left: 100px;
+  color: navy;
+  font-weight: lighter;
+  margin-right: 20px;
 }
 
 #contact-heading {
-    min-width: 384px;
+  min-width: 384px;
 }
 
 article section ul {
-    width: 100%;
-    list-style: none;
-    border-left: solid blue 5px;
+  width: 100%;
+  list-style: none;
+  border-left: solid blue 5px;
 }
 
 article section ul li {
-    display: inline-block;
-    margin-right: 25px;
-    border-bottom: solid navy 5px;
-    color: navy;
-    margin-top: 40px;
-    margin-left: 100px;
-    
+  display: inline-block;
+  margin-right: 25px;
+  border-bottom: solid navy 5px;
+  color: navy;
+  margin-top: 40px;
+  margin-left: 100px;
 }
 
 .contact-container {
-    display: flex;
+  display: flex;
 }
-
 
 .contact-me {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
-
 #work {
-    margin-top: 2%;
-    display: flex;
+  margin-top: 2%;
+  display: flex;
 }
 
 #work-heading {
-    min-width: 384px;
+  min-width: 384px;
 }
 
-
 .image-container-1 .imagine-container-2 {
-    
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .headings {
-    font-size: 5rem;
-    white-space: nowrap;
-    margin-left: 1%;
-    margin-right: 1%;
-    color: navy;
-    font-weight: lighter;
-   
+  font-size: 5rem;
+  white-space: nowrap;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: navy;
+  font-weight: lighter;
 }
-
-
-
-
 
 img {
-    width: 100%;
-    /* min-width: 250px; */
-    height: 100%;
-    
-   
+  width: 100%;
+  /* min-width: 250px; */
+  height: 100%;
 }
-
 
 #horiseon {
-    width: 90%;
+  width: 90%;
 }
 
-.image-container-1 { 
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    border-left: solid blue 5px;
+.image-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-left: solid blue 5px;
 }
 
+.image-container-1 a {
+  width: 45%;
+  height: 50vh;
+  margin: 1%;
+  padding: 1%;
+}
 
- .image-container-1 a  {
-    width: 45%;
-    height: 50vh;
-    margin: 1%;
-    padding: 1%;
- }  
+.image-container-1 a img {
+  width: 100%;
+}
 
- .image-container-1 a img {
-    width: 100%;
- }
-
- 
 .image-container-2 {
-    display: flex;
-    width: 100%;
-    
-   
+  display: flex;
+  width: 100%;
 }
-
-
 
 @media screen and (max-width: 768px) {
-    header, nav, figure {
-        flex-direction: column;
-    }
-    .about-container {
-        display: block;
-}
+  header,
+  nav,
+  figure {
+    flex-direction: column;
+  }
+  .about-container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero h1 {
+    margin: 0;
+    padding: 0;
+  }
 
-.horiseon {
+  .image-container-1 {
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+  }
+  #horiseon img {
+    width: 20rem;
+  }
+
+  .horiseon {
     display: block;
-}
+  }
 
-.contact-container {
-    display: block;
-}
+  .contact-container ul {
+    display: flex;
+    flex-direction: column;
+  }
 
-.images-container {
+  .images-container {
     width: 100%;
     min-width: 90%;
-}
+  }
 
-.work-heading {
+  .work-heading {
     width: 100%;
     min-width: 90%;
-}
+  }
 
-#work {
+  #work {
     display: block;
-}
-
+  }
 }
