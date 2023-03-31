@@ -1,8 +1,12 @@
+/* changing HTML code to include ID selectors and declaring ID selectors in CSS allowed easy manipulation of individual elements within flexbox */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+/* slow scrolling behaviour */
 
 html {
   scroll-behavior: smooth;
@@ -170,7 +174,6 @@ article section ul li {
 
 img {
   width: 100%;
-  /* min-width: 250px; */
   height: 100%;
 }
 
